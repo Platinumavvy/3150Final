@@ -1,0 +1,75 @@
+html {
+	background-color: silver;
+	line-height: 2;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+.name {
+	color: steelblue;
+	font-size: 45px;
+	box-sizing: border-box;
+	border-style: groove;
+	border-radius: 5px;
+	border-color: black;
+	font-family: monospace;
+	position: inline;
+	margin-left: 35px;
+}
+.logo {
+	position: relative;
+	right: -670px;
+}
+.logo-chevy {
+	position: relative;
+	display: block;
+}
+.logo-saturn {
+	position: relative;
+	display: inline-block;
+	right: -600px;
+	padding-top: 10px;
+}
+.logo-gmc {
+}
+.logo-cadillac {
+}
+nav {
+	background-color: rgba(178, 34, 34, 0.84);
+	border: 10px;
+	size: 20px;
+	display: flexbox;
+	border-style: line;
+	border-bottom: 5px;
+}
+.menu a:hover {
+	background-color: darkgrey;
+	border-radius: 5px;
+	border-width: 3px;
+	transition: 0s;
+}
+a {
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	font-size: 25px;
+	border-style: ridge;
+	border-width: 1px;
+	border-radius: 2px;
+	padding: 3px;
+	margin: 8px;
+}
+.instructions {
+	font-size: x-large;
+	position: relative;
+	font-style: italic;
+}
+/* .header { */
+/* position: absolute; */
+/* background-color: blue; */
+/* } */
