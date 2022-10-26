@@ -50,6 +50,16 @@ html {
 	right: -580px;
 	padding-top: 10px;
 }
+.logo-buick {
+	position: relative;
+	right: -580px;
+	padding-top: 10px;
+}
+.logo-honda {
+	position: relative;
+	right: -580px;
+	padding-top: 10px;
+}
 .menu {
 	background-color: rgba(178, 34, 34, 0.713);
 	border: 10px;
