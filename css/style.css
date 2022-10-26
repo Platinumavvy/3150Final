@@ -29,17 +29,26 @@ html {
 }
 .logo-chevy {
 	position: relative;
-	display: block;
+	display: inline-block;
+	right: -550px;
+	padding-top: 10px;
 }
 .logo-saturn {
 	position: relative;
 	display: inline-block;
-	right: -600px;
+	right: -550px;
 	padding-top: 10px;
 }
 .logo-gmc {
+	position: relative;
+	display: inline-block;
+	right: -550px;
+	padding-top: 10px;
 }
 .logo-cadillac {
+	position: relative;
+	right: -580px;
+	padding-top: 10px;
 }
 .menu {
 	background-color: rgba(178, 34, 34, 0.713);
@@ -70,7 +79,7 @@ a {
 	position: relative;
 	font-style: italic;
 }
-/* .header { */
-/* position: absolute; */
-/* background-color: blue; */
-/* } */
+.aura-08 {
+	font-style: none;
+	border: none;
+}
