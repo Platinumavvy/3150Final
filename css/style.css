@@ -89,7 +89,10 @@ a {
 	position: relative;
 	font-style: italic;
 }
-.aura {
+.link {
 	font-style: none;
 	border: none;
+}
+a:hover {
+	background-color: rgba(178, 34, 34, 0.713);
 }
