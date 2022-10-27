@@ -96,3 +96,40 @@ a {
 a:hover {
 	background-color: rgba(178, 34, 34, 0.713);
 }
+.description-chevy {
+	border-style: double;
+	border-color: gold;
+	border-width: 5px;
+	margin-top: 5px;
+}
+.description-saturn {
+	border-style: double;
+	border-color: rgb(138, 10, 10);
+	border-width: 5px;
+	margin-top: 5px;
+}
+.description-cadillac {
+	border-style: double;
+	border-color: black;
+	border-width: 5px;
+	margin-top: 5px;
+	font-style: italic;
+}
+.description-buick {
+	border-style: double;
+	border-color: rgb(16, 16, 149);
+	border-width: 5px;
+	margin-top: 5px;
+}
+.description-gmc {
+	border-style: double;
+	border-color: crimson;
+	border-width: 5px;
+	margin-top: 5px;
+}
+.description-honda {
+	border-style: double;
+	border-color: darkgrey;
+	border-width: 5px;
+	margin-top: 5px;
+}
