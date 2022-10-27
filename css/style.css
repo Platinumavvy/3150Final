@@ -136,3 +136,78 @@ a:hover {
 	border-width: 5px;
 	margin-top: 5px;
 }
+
+.panel {
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.question-container {
+	margin: 10px;
+	padding: 5px;
+	width: 800px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: steelblue;
+	font-size: large;
+	color: aliceblue;
+	text-align: center;
+}
+.result {
+	margin: 10px;
+	padding: 5px;
+	width: 80px;
+	height: 10px;
+	text-align: center;
+	font-size: 10px;
+}
+.option-container {
+	display: flex;
+	justify-content: space-around;
+	border-style: groove;
+	margin: 10px;
+	padding: 1px;
+	width: 800px;
+	height: 200px;
+}
+.option {
+	padding: 1px;
+	width: 150px;
+	height: 100px;
+	font-size: larger;
+	background-color: darkgrey;
+	border-radius: 15px;
+}
+.option:hover {
+	background-color: rgba(178, 34, 34, 0.713);
+}
+.navigation {
+	width: 800px;
+	height: 100px;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.evaluate,
+.next {
+	width: 150px;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+}
+.evaluate {
+	color: white;
+	background-color: steelblue;
+}
+.next {
+	color: white;
+	background-color: steelblue;
+}
+.evaluate:hover,
+.next:hover {
+	background-color: rgba(178, 34, 34, 0.713);
+}
